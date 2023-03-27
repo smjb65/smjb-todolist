@@ -1,0 +1,73 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/trash.css');
+@font-face {
+    font-family: vazir;
+    src: url(./fonts/Vazir-Code.eot);
+    src: url(./fonts/Vazir-Code.woff2),
+    url(./fonts/Vazir-Code.woff),
+    url(./fonts/Vazir-Code.ttf);
+}
+
+body {
+    background: url(./AdobeStock_204993923-scaled.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    font-size: 5rem;
+    position: absolute;
+    text-align: center;
+    left: 38rem;
+    top: 4rem;    
+}
+
+li {
+    /* position: relative;
+    top: 15rem; */
+    background-color: rgba(174, 255, 75, 0.637);width: 20rem;height: 4rem;
+    line-height: 4rem;
+    border: black solid 2.5px;
+    border-radius: 20px;
+    /* left: 37rem; */
+    font-size: 1.25rem;
+
+}
+i {
+    position: relative;
+    left: 18rem;
+    top: -2.5rem;
+    width: 2rem;
+    height: 2rem;
+}
+.box {
+    position: relative;
+    top: 1rem;
+    left: 0.5rem;
+}
+#input{
+    background-color: rgba(255, 255, 255, 0.877);width: 20rem;height: 4rem;
+    border: black solid 2.5px;
+    border-radius: 20px;
+    font-size: 1.25rem;
+}
+button {
+    position: relative;
+    top: 1rem;
+    left: 0.25rem;
+    background-color: rgb(0, 212, 212);width: 20rem;
+    font-size: 3rem;
+    border-radius: 2rem;
+}
+.asli {
+    position: absolute;
+    left: 36.8rem;
+    top: 12rem;
+}
+button:hover {
+    background-color: aquamarine;
+}
+
+i:hover {
+    color: rgb(236, 22, 22);
+}
